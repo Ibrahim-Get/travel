@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tour</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Swiper -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-header">
+            <div class="nav-logo">
+                <a href="#">Travel<span>Toor</span></a>
+            </div>
+            <div class="nav-menu-btn" id="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="home">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="packages">Packages</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+        <div class="nav-btns">
+            <button class="btn">Register</button>
+        </div>
+    </nav>
+    <header class="section-container header-container" id="home">
+        <div class="header-content">
+            <h1><span>Let's</span> Creat Memorable Journey</h1>
+            <p class="section-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aspernatur quidem, expedita quasi nam fugit? Alias ipsa rerum, quod officia itaque expedita in nostrum, accusamus repellat ullam nihil quis ab?
+            </p>
+            <form action="#">
+                <div class="input-group">
+                    <label for="location">Location</label>
+                    <input type="text" name="location" placeholder="lakshadweep">
+                </div>
+                <div class="input-group">
+                    <label for="date">Date</label>
+                    <input type="text" name="date" placeholder="26 Mar, Fri">
+                </div>
+                <div class="input-group">
+                    <label for="price">Price</label>
+                    <input type="text" name="price" placeholder="Rs. 42,000">
+                </div>
+                <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+        <div class="header-image">
+            <img src="images/header-1.jpg" alt="header">
+            <img src="images/header-2.jpg" alt="header">
+            <img src="images/header-3.jpg" alt="header">
+            <img src="images/bg.png" alt="bg">
+        </div>
+    </header>
+
+    <section class="section-container choose-container" id="about">
+        <div class="choose-image">
+            <img src="images/choose.jpg" alt="">
+        </div>
+        <div class="choose-content">
+            <p class="section-subheader">Why Choose Us?</p>
+            <h2 class="section-header">Plan Your Trip <span>With Us</span></h2>
+            <ul class="choose-list">
+                <li>
+                    <span><i class="fa-solid fa-certificate"></i></span>
+                    <div>
+                        <h4>Best Price Guarantee</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, ad tenetur aspernatur corporis delectus velit aperiam quidem dolorem perspiciatis reprehenderit.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-calendar-days"></i></span>
+                    <div>
+                        <h4>Booking Options</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, ad tenetur aspernatur corporis delectus velit aperiam quidem dolorem perspiciatis reprehenderit.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-map"></i></span>
+                    <div>
+                        <h4>Revising Track Map </h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, ad tenetur aspernatur corporis delectus velit aperiam quidem dolorem perspiciatis reprehenderit.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section-container popular-container" id="package">
+        <img src="images/bg.png" alt="bg" class="popular-bg">
+        <p class="section-subheader">Famous Destination</p>
+        <h2 class="section-header">Our Popular <span>Destinations</span></h2>
+
+            <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="popular-card">
+                    <img src="images/popular-1.jpg" alt="popular">
+                    <div class="popular-content">
+                        <div class="popular-rating">
+                            <span><i class="fa-solid fa-star"></i></span> 4.0(34)
+                        </div>
+                        <h4>Lakshadweep</h4>
+                        <p>Rs. 28,000/-<span> Per Person</span></p>
+                        <div class="popular-card-footer">
+                            <div>
+                                <span><i class="fa-regular fa-clock"></i></span> 4 Day's
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-person"></i></span> 15+
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-location-dot"></i></span> India
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide">
+                <div class="popular-card">
+                    <img src="images/popular-2.jpg" alt="popular">
+                    <div class="popular-content">
+                        <div class="popular-rating">
+                            <span><i class="fa-solid fa-star"></i></span> 4.0(34)
+                        </div>
+                        <h4>Lakshadweep</h4>
+                        <p>Rs. 28,000/-<span> Per Person</span></p>
+                        <div class="popular-card-footer">
+                            <div>
+                                <span><i class="fa-regular fa-clock"></i></span> 4 Day's
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-person"></i></span> 15+
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-location-dot"></i></span> India
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="popular-card">
+                    <img src="images/popular-3.jpg" alt="popular">
+                    <div class="popular-content">
+                        <div class="popular-rating">
+                            <span><i class="fa-solid fa-star"></i></span> 4.0(34)
+                        </div>
+                        <h4>Lakshadweep</h4>
+                        <p>Rs. 28,000/-<span> Per Person</span></p>
+                        <div class="popular-card-footer">
+                            <div>
+                                <span><i class="fa-regular fa-clock"></i></span> 4 Day's
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-person"></i></span> 15+
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-location-dot"></i></span> India
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="popular-card">
+                    <img src="images/popular-4.jpg" alt="popular">
+                    <div class="popular-content">
+                        <div class="popular-rating">
+                            <span><i class="fa-solid fa-star"></i></span> 4.0(34)
+                        </div>
+                        <h4>Lakshadweep</h4>
+                        <p>Rs. 28,000/-<span> Per Person</span></p>
+                        <div class="popular-card-footer">
+                            <div>
+                                <span><i class="fa-regular fa-clock"></i></span> 4 Day's
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-person"></i></span> 15+
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-location-dot"></i></span> India
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="popular-card">
+                    <img src="images/popular-5.jpg" alt="popular">
+                    <div class="popular-content">
+                        <div class="popular-rating">
+                            <span><i class="fa-solid fa-star"></i></span> 4.0(34)
+                        </div>
+                        <h4>Lakshadweep</h4>
+                        <p>Rs. 28,000/-<span> Per Person</span></p>
+                        <div class="popular-card-footer">
+                            <div>
+                                <span><i class="fa-regular fa-clock"></i></span> 4 Day's
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-person"></i></span> 15+
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-location-dot"></i></span> India
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container explore-container">
+        <div class="explore-image">
+            <img src="images/explore.jpg" alt="explore">
+        </div>
+        <div class="explore-content">
+            <p class="section-subheader">Explore With Us</p>
+            <h2 class="section-header">
+                Choose Dream Destination For <span>Explore World</span>
+            </h2>
+            <p class="section-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum fugit, repellendus sed quo nobis molestiae ipsam minus quisquam omnis aliquam ex asperiores eaque numquam vitae tenetur enim laboriosam, facilis et.
+            </p>
+            <div class="explore-btn">
+                <button class="btn">About Us</button>
+            </div>
+            <div class="explore-gird">
+                <div>
+                    <h4>14</h4>
+                    <p>Years <br> Experience</p>
+                </div>
+                <div>
+                    <h4>67+</h4>
+                    <p>Destinations <br> Celebrations</p>
+                </div>
+                <div>
+                    <h4>320+</h4>
+                    <p>Happy <br> Customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container client-container">
+        <img src="images/bg.png" alt="bg" class="client-bg">
+        <p class="section-subheader">Waht Our Clients Say?</p>
+        <h2 class="section-header">Clients <span>Testimonials</span></h2>
+        <div class="client-card">
+            <img src="images/client-2.jpg" alt="client">
+            <div class="client-content">
+                <h4>Sophia Lee</h4>
+                <h5>Software Engineer</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sint consequatur excepturi facilis eos! Recusandae, veritatis esse hic in enim ipsa delectus atque commodi molestias nobis quibusdam sapiente, quasi molestiae!
+                </p>
+            </div>
+        </div>
+
+        <div class="client-card">
+            <img src="images/client-3.jpg" alt="client">
+            <div class="client-content">
+                <h4>Micheal Roberts</h4>
+                <h5> Photographer</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sint consequatur excepturi facilis eos! Recusandae, veritatis esse hic in enim ipsa delectus atque commodi molestias nobis quibusdam sapiente, quasi molestiae!
+                </p>
+            </div>
+        </div>
+
+        <div class="client-card active">
+            <img src="images/client-1.jpg" alt="client">
+            <div class="client-content">
+                <h4>Emma Johanson</h4>
+                <h5>Travel Bloger</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sint consequatur excepturi facilis eos! Recusandae, veritatis esse hic in enim ipsa delectus atque commodi molestias nobis quibusdam sapiente, quasi molestiae!
+                </p>
+            </div>
+        </div>
+        <div class="client-btns">
+            <button class="btn" id="prev">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="btn" id="next">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <section class="section-container subscribe-container" id="contact">
+        <h2 class="section-header">
+            Subscribe To Get The Latest News <span>About Us</span>
+        </h2>
+        <p class="section-description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore distinctio non suscipit ab impedit dolorem sequi eum praesentium cumque dicta, delectus asperiores quibusdam at fugit iure aliquam ullam reiciendis perferendis!
+        </p>
+        <form action="#">
+            <input type="text" placeholder="Your Email"> 
+            <button class="btn">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="section-container footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <a href="#">TravelToor</a>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam velit, tempora nihil a natus mollitia ducimus quia vero excepturi qui totam eum officia beatae earum magni nisi sequi. Optio, distinctio.
+                </p>
+                <ul class="footer-socials">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Instagram</h4>
+                <div class="footer-col-flex">
+                    <img src="images/instagram-1.jpg" alt="instagram">
+                    <img src="images/instagram-2.jpg" alt="instagram">
+                    <img src="images/instagram-3.jpg" alt="instagram">
+                    <img src="images/instagram-4.jpg" alt="instagram">
+                    <img src="images/instagram-5.jpg" alt="instagram">
+                    <img src="images/instagram-6.jpg" alt="instagram">
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <div class="footer-links">
+                    <li>
+                        <a href="#">
+                            <span><i class="fa-solid fa-phone"></i></span> +91 0987654321
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa-solid fa-location-dot"></i></span> New Delhi, India
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa-solid fa-envelope"></i></span> info@carrental
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar">
+            Copyright &copy; 2024 Web Design Mastry. All Rights Reserved.
+        </div>
+    </footer>
+
+<!-- ScrollReveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!-- Swipper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
